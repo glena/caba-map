@@ -1,0 +1,11 @@
+svg path {
+  fill: transparent;
+}
+svg path.calle {
+  stroke: red;
+  stroke-width: 1px;
+}
+svg path.avenida {
+  stroke: blue;
+  stroke-width: 2px;
+}
