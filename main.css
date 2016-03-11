@@ -1,11 +1,26 @@
+svg {
+  border:1px solid black;
+}
 svg path {
   fill: transparent;
 }
-svg path.calle {
-  stroke: red;
+svg path.calle.decreciente {
+  stroke: #FF9999;
   stroke-width: 1px;
 }
-svg path.avenida {
-  stroke: blue;
+svg path.calle.creciente {
+  stroke: #FF0000;
+  stroke-width: 1px;
+}
+svg path.avenida.creciente {
+  stroke: #0000FF;
+  stroke-width: 2px;
+}
+svg path.avenida.decreciente {
+  stroke: #9999FF;
+  stroke-width: 2px;
+}
+svg path.avenida.doble {
+  stroke: #5555FF;
   stroke-width: 2px;
 }
